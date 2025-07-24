@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <title>Earth Cafe - Fresh Juice & Organic Eats</title>
+    <meta name="description" content="Earth Cafe - Your destination for fresh cold-pressed juices, organic food, and healthy eats. Nourish your body with nature's goodness in every sip and bite.">
+    <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <style type="text/tailwindcss">
+        .menu-item-image {
+            @apply w-28 h-28 object-cover rounded-lg flex-shrink-0;
+        }
+    </style>
+
+    <link href="./style.css" rel="stylesheet"/>
+    <link href="./css/custom.css" rel="stylesheet"/>
+</head>
+<body class="bg-[var(--background-color)] text-[var(--text-dark)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+
+    <header class="sticky top-0 z-10 bg-[var(--background-color)]/90 backdrop-blur-sm shadow-md">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <div class="flex items-center">
+                <h1 class="text-2xl font-black text-black">EARTH CAFE</h1>
+            </div>
+            <nav class="hidden md:flex items-center space-x-6">
+                <a href="#" data-page-link="home" class="text-black hover:text-gray-700 font-medium transition-colors">Home</a>
+                <a href="#" data-page-link="menu" class="text-black hover:text-gray-700 font-medium transition-colors">Our Menu</a>
+                <a href="#" data-page-link="about" class="text-black hover:text-gray-700 font-medium transition-colors">Our Story</a>
+                <a href="#" data-page-link="contact" class="text-black hover:text-gray-700 font-medium transition-colors">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="#" data-page-link="order" class="relative text-black hover:text-gray-700 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                    <span id="cart-count" class="absolute -top-2 -right-2 bg-green-600 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">0</span>
+                </a>
+                <button id="mobile-menu-button" class="md:hidden text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" class="flex-grow">
+        <!-- Hero Section with Logo -->
+        <section class="relative h-[60vh] min-h-[400px] flex items-center justify-center bg-gray-100 overflow-hidden">
+            <div class="absolute inset-0 bg-black/40 z-10"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center"></div>
+            <div class="relative z-20">
+                <img src="assets/images/earthcafelogo.jpg" alt="Earth Cafe Logo" class="h-48 w-auto mx-auto">
+            </div>
+        </section>
+        
+        <!-- Featured Categories -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-black text-center mb-12">OUR JUICE BAR & CAFE</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center p-6">
+                        <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl">🍹</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Cold-Pressed Juices</h3>
+                        <p class="text-gray-600">Experience the pure taste and maximum nutrition of our fresh, cold-pressed juices made daily.</p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl">🥗</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Organic Eats</h3>
+                        <p class="text-gray-600">Enjoy delicious, nutrient-packed meals made with 100% organic and locally-sourced ingredients.</p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl">🌱</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Plant-Based Focus</h3>
+                        <p class="text-gray-600">Nourish your body with our selection of plant-based, dairy-free, and gluten-free options.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</div>
+
+<!-- Swiper.js CDN - Load before our scripts -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="fixed inset-0 bg-black/90 z-50 hidden">
+    <div class="flex justify-end p-4">
+        <button id="close-mobile-menu" class="text-white p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+    <nav class="flex flex-col items-center justify-center h-[80vh] space-y-8">
+        <a href="#" data-page-link="home" class="text-2xl font-black text-white hover:text-gray-300 transition-colors">Home</a>
+        <a href="#" data-page-link="menu" class="text-2xl font-black text-white hover:text-gray-300 transition-colors">Our Menu</a>
+        <a href="#" data-page-link="about" class="text-2xl font-black text-white hover:text-gray-300 transition-colors">Our Story</a>
+        <a href="#" data-page-link="contact" class="text-2xl font-black text-white hover:text-gray-300 transition-colors">Contact</a>
+    </nav>
+</div>
+
+<script>
+    // Mobile menu toggle
+    const mobileMenuButton = document.querySelector('header button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const closeMobileMenu = document.getElementById('close-mobile-menu');
+    
+    if (mobileMenuButton && mobileMenu && closeMobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeMobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            document.body.style.overflow = '';
+        });
+        
+        // Close menu when clicking on a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                document.body.style.overflow = '';
+            });
+        });
+    }
+</script>
+
+<!-- Modular JavaScript Files -->
+<script src="./js/menuData.js"></script>
+<script src="./js/pageContent.js"></script>
+<script src="./js/cart.js"></script>
+<script src="./js/pageManager.js"></script>
+<script src="./js/navigation.js"></script>
+<script src="./js/app.js"></script>
+
+</body>
+</html>

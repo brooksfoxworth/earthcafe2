@@ -1,0 +1,63 @@
+/* Custom CSS for Earth Cafe */
+
+/* Remove fixed footer/dock */
+footer {
+    position: static !important;
+    background-color: #ffffff;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+/* Ensure text is black on light backgrounds */
+body {
+    color: #000000;
+}
+
+/* Update text colors for better contrast */
+h1, h2, h3, h4, h5, h6,
+p, li, a, span, div {
+    color: #000000 !important;
+}
+
+/* Update hero section text to be white on dark background */
+.hero-section {
+    color: #ffffff;
+}
+
+.hero-section h1,
+.hero-section h2,
+.hero-section h3,
+.hero-section p,
+.hero-section a {
+    color: #ffffff !important;
+}
+
+/* Update footer text colors */
+footer {
+    color: #000000;
+}
+
+footer h3,
+footer h4,
+footer p,
+footer a,
+footer li {
+    color: #000000 !important;
+}
+
+/* Update mobile menu text colors */
+#mobile-menu a {
+    color: #ffffff !important;
+}
+
+/* Ensure form inputs have dark text */
+input, textarea, select {
+    color: #000000 !important;
+}
+
+/* Add this to your existing styles or in a style tag in the head */
+:root {
+    --text-dark: #000000;
+    --text-medium: #333333;
+    --text-light: #666666;
+}
