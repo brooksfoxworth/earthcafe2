@@ -9,7 +9,7 @@ const PageContent = {
             <div class="relative h-96 md:h-[600px] mt-8 mb-8 rounded-xl mx-4 overflow-hidden shadow-2xl bg-white" style="animation: fadeInUp 0.8s ease-out;">
                 <!-- Logo filling entire hero section -->
                 <div class="w-full h-full">
-                    <img src="../assets/images/earthcafelogo.jpg" alt="Earth Cafe Logo" class="w-full h-full object-cover">
+                    <img src="../assets/images/insideearthcafe.webp" alt="Earth Cafe Logo" class="w-full h-full object-cover">
                 </div>
             </div>
 
@@ -57,64 +57,64 @@ const PageContent = {
             </div>
 
             <!-- Featured Menu Items -->
-            <div class="bg-green-50 backdrop-blur-sm rounded-xl p-8 mx-4 mb-12 border border-green-100 shadow-lg" style="animation: fadeInUp 0.8s ease-out 0.4s both;">
+            <div class="bg-green-50 backdrop-blur-sm rounded-xl p-8 mx-4 mb-12 border border-green-100 shadow-lg" >
                 <div class="text-center w-full mb-12">
-                    <h2 class="text-4xl font-bold text-gray-900 section-header">Signature Juices</h2>
-                    <p class="text-lg text-gray-600 mt-2 max-w-2xl mx-auto">Our most popular cold-pressed juices that our customers love</p>
+                    <h2 class="text-4xl font-bold text-gray-900 section-header">Featured Menu Items</h2>
+<p class="text-lg text-gray-600 mt-2 max-w-2xl mx-auto">A few of our most popular menu picks, loved by our guests!</p>
                 </div>
-                <div class="swiper game-day-swiper max-w-6xl mx-auto swiper-container-fix">
+                <div class="swiper game-day-swiper max-w-6xl mx-auto swiper-container-fix opacity-0 transition-opacity duration-300">
                   <div class="swiper-wrapper items-stretch">
                     <div class="swiper-slide">
-                      <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover border border-gray-200 group swiper-card" style="animation: slideInLeft 0.6s ease-out 0.6s both;">
-                          <div class="relative">
-                              <img src="https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Green Detox Juice" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
-                              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                              <div class="absolute bottom-0 left-0 right-0 p-4">
-                                  <h3 class="text-xl font-bold text-white">Green Detox</h3>
-                              </div>
-                          </div>
-                          <div class="p-4">
-                              <p class="text-gray-700 text-sm mb-4">A refreshing blend of kale, spinach, cucumber, green apple, and lemon. Packed with nutrients to cleanse and energize your body.</p>
-                              <button class="w-full bg-gradient-to-r from-red-600 to-red-700 text-white py-2 rounded-lg font-medium hover:opacity-90 transition-opacity" onclick="window.PierogiApp.getNavigationManager().navigateToPage('menu')">
-                                  View Menu
-                              </button>
-                          </div>
-                      </div>
-                    </div>
+  <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover border border-gray-200 group swiper-card" >
+    <div class="relative">
+      <div class="flex items-center justify-center w-full h-48 text-7xl">🥪</div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+      <div class="absolute bottom-0 left-0 right-0 p-4">
+        <h3 class="text-xl font-bold text-white">Turkey BLT</h3>
+      </div>
+    </div>
+    <div class="p-4">
+      <p class="text-gray-700 text-sm mb-4">Fresh roasted turkey, crispy bacon, lettuce, tomato, and mayo on your choice of bread or wrap.</p>
+      <button class="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-2 rounded-lg font-medium hover:opacity-90 transition-opacity">
+        Add to Cart
+      </button>
+    </div>
+  </div>
+</div>
                     <div class="swiper-slide">
-                      <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover border border-gray-200 group swiper-card" style="animation: slideInLeft 0.6s ease-out 0.6s both;">
-                          <div class="relative">
-                              <img src="https://images.unsplash.com/photo-1603569294250-491f0c4de0d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Sunrise Citrus" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
-                              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                              <div class="absolute bottom-0 left-0 right-0 p-4">
-                                  <h3 class="text-xl font-bold text-white">Sunrise Citrus</h3>
-                              </div>
-                          </div>
-                          <div class="p-4">
-                              <p class="text-gray-700 text-sm mb-4">A vibrant blend of orange, carrot, ginger, and turmeric. Packed with vitamin C and antioxidants to boost your immune system.</p>
-                              <button class="w-full bg-gradient-to-r from-red-600 to-red-700 text-white py-2 rounded-lg font-medium hover:opacity-90 transition-opacity" onclick="window.PierogiApp.getNavigationManager().navigateToPage('menu')">
-                                  View Menu
-                              </button>
-                          </div>
-                      </div>
-                    </div>
+  <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover border border-gray-200 group swiper-card" >
+    <div class="relative">
+      <div class="flex items-center justify-center w-full h-48 text-7xl">🥗</div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+      <div class="absolute bottom-0 left-0 right-0 p-4">
+        <h3 class="text-xl font-bold text-white">Chicken Salad</h3>
+      </div>
+    </div>
+    <div class="p-4">
+      <p class="text-gray-700 text-sm mb-4">Homemade chicken salad with celery, grapes, and walnuts on croissant or wrap.</p>
+      <button class="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-2 rounded-lg font-medium hover:opacity-90 transition-opacity">
+        Add to Cart
+      </button>
+    </div>
+  </div>
+</div>
                     <div class="swiper-slide">
-                      <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover border border-gray-200 group swiper-card" style="animation: slideInLeft 0.6s ease-out 0.6s both;">
-                          <div class="relative">
-                              <img src="https://images.unsplash.com/photo-1603569305201-0fbc8f0c0b53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Beet Blast" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
-                              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                              <div class="absolute bottom-0 left-0 right-0 p-4">
-                                  <h3 class="text-xl font-bold text-white">Beet Blast</h3>
-                              </div>
-                          </div>
-                          <div class="p-4">
-                              <p class="text-gray-700 text-sm mb-4">A powerful combination of beets, apple, carrot, and ginger. Naturally sweet and packed with essential nutrients for energy and vitality.</p>
-                              <button class="w-full bg-gradient-to-r from-red-600 to-red-700 text-white py-2 rounded-lg font-medium hover:opacity-90 transition-opacity" onclick="window.PierogiApp.getNavigationManager().navigateToPage('menu')">
-                                  View Menu
-                              </button>
-                          </div>
-                      </div>
-                    </div>
+  <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover border border-gray-200 group swiper-card" >
+    <div class="relative">
+      <div class="flex items-center justify-center w-full h-48 text-7xl">🧀</div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+      <div class="absolute bottom-0 left-0 right-0 p-4">
+        <h3 class="text-xl font-bold text-white">Grilled Cheese</h3>
+      </div>
+    </div>
+    <div class="p-4">
+      <p class="text-gray-700 text-sm mb-4">Three cheese blend on sourdough, served with tomato soup.</p>
+      <button class="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-2 rounded-lg font-medium hover:opacity-90 transition-opacity">
+        Add to Cart
+      </button>
+    </div>
+  </div>
+</div>
                   </div>
                   <!-- Swiper navigation -->
                   <div class="swiper-pagination game-day-swiper-pagination"></div>
@@ -123,7 +123,7 @@ const PageContent = {
                 <!-- View Full Menu CTA -->
                 <div class="text-center mt-12">
                     <a href="#" onclick="window.PierogiApp.getNavigationManager().navigateToPage('menu')" class="inline-block bg-gradient-to-r from-red-600 to-yellow-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300 transform">
-                        View All Juice Flavors
+                        View Full Menu
                     </a>
                 </div>
             </div>
@@ -137,7 +137,7 @@ const PageContent = {
                 <div class="swiper fans-say-swiper max-w-4xl mx-auto swiper-container-fix">
                   <div class="swiper-wrapper items-stretch">
                     <div class="swiper-slide">
-                      <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover border border-gray-200 group swiper-card h-full" style="animation: slideInLeft 0.6s ease-out 0.6s both;">
+                      <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover border border-gray-200 group swiper-card h-full" >
                           <div class="p-6 flex flex-col h-full">
                               <div class="flex items-center mb-4">
                                   <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-2xl font-bold text-green-600 mr-4">SG</div>
@@ -223,26 +223,44 @@ const PageContent = {
 
     about: `
                 <div class="pt-12 mb-12">
+    
                     <div class="bg-white rounded-xl shadow-lg p-8 border-l-4 border-green-600">
                         <div class="flex items-center mb-6">
                             <div class="w-1 h-8 bg-green-600 mr-4"></div>
                             <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Our Story</h1>
                         </div>
+                        <div class="flex flex-col md:flex-row md:items-center gap-8 mb-6">
+    <div class="flex-1">
+        <p class="text-lg text-gray-700 leading-relaxed mb-0">
+            Welcome to Earth Cafe, Myrtle Beach's premier destination for fresh, organic, and nourishing food and juices. 
+            Founded in the heart of the Grand Strand, our mission is to bring healthy, delicious, and sustainable food options 
+            to our coastal community.
+        </p>
+    </div>
+    <div class="flex-shrink-0 md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
+        <img src="assets/images/ourstory1.webp" alt="Fresh juice being poured at Earth Cafe" class="rounded-xl shadow-xl w-full h-56 object-cover hover:scale-105 transition-transform duration-300" />
+    </div>
+</div>
+                        <div class="flex flex-col md:flex-row md:items-center gap-8 mb-6">
+    <div class="flex-shrink-0 md:w-1/2 lg:w-1/3 mb-6 md:mb-0 order-2 md:order-1">
+        <img src="assets/images/ourstory2.webp" alt="Earth Cafe staff preparing organic meals" class="rounded-xl shadow-xl w-full h-56 object-cover hover:scale-105 transition-transform duration-300" />
+    </div>
+    <div class="flex-1 order-1 md:order-2">
+        <p class="text-lg text-gray-700 leading-relaxed mb-0">
+            Our journey began with a simple vision: to create a welcoming space where health-conscious individuals and 
+            food lovers alike could enjoy meals that are as good for the body as they are for the soul. Every dish and juice 
+            is crafted with care using locally-sourced, organic ingredients to ensure maximum flavor and nutrition.
+        </p>
+    </div>
+</div>
                         <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                            Welcome to Earth Cafe, Myrtle Beach's premier destination for fresh, organic, and nourishing food and juices. 
-                            Founded in the heart of the Grand Strand, our mission is to bring healthy, delicious, and sustainable food options 
-                            to our coastal community.
-                        </p>
-                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                            Our journey began with a simple vision: to create a welcoming space where health-conscious individuals and 
-                            food lovers alike could enjoy meals that are as good for the body as they are for the soul. Every dish and juice 
-                            is crafted with care using locally-sourced, organic ingredients to ensure maximum flavor and nutrition.
-                        </p>
-                        <p class="text-lg text-gray-700 leading-relaxed">
-                            Whether you're joining us for a refreshing cold-pressed juice, a nourishing bowl, or one of our famous smoothies, 
-                            we invite you to experience the Earth Cafe difference. Thank you for being part of our journey toward a healthier, 
-                            more sustainable future.
-                        </p>
+    Whether you're joining us for a refreshing cold-pressed juice, a nourishing bowl, or one of our famous smoothies, 
+    we invite you to experience the Earth Cafe difference. Thank you for being part of our journey toward a healthier, 
+    more sustainable future.
+</p>
+<div class="my-8 flex justify-center">
+    <img src="assets/images/ourstory3.webp" alt="Happy customers enjoying at Earth Cafe" class="rounded-xl shadow-2xl w-full max-w-2xl object-cover h-64 hover:scale-105 transition-transform duration-300" />
+</div>
                     </div>
                 </div>
 
@@ -309,21 +327,20 @@ const PageContent = {
                 </div>
 
                 <!-- Our Commitment -->
-                <div class="bg-gradient-to-r from-red-50 to-pink-50 rounded-xl shadow-lg p-8 mb-12">
+                <div class="bg-gradient-to-r from-green-50 to-yellow-50 rounded-xl shadow-lg p-8 mb-12">
                     <div class="text-center mb-6">
-                        <div class="w-16 h-1 bg-[var(--primary-color)] mb-6 mx-auto"></div>
+                        <div class="w-16 h-1 bg-green-600 mb-6 mx-auto"></div>
                         <h2 class="text-2xl font-bold text-[var(--text-dark)] mb-2">Our Commitment</h2>
-                        <p class="text-[var(--primary-color)] font-semibold">"Nourishing Our Community, One Meal at a Time"</p>
-                        <p class="text-[var(--primary-color)] font-semibold">"Where Every Game Feels Like Home"</p>
+                        <p class="text-green-700 font-semibold">"Nourishing Our Community, One Meal at a Time"</p>
                     </div>
                     <div class="bg-white rounded-lg p-6 shadow-sm">
                         <p class="text-[var(--text-medium)] leading-relaxed text-lg text-center">
-                            Whether you're here for the big game, a casual night out, or to enjoy our weekly specials, we're committed to making every visit memorable. Our team works tirelessly to ensure you have the best wings, the coldest drinks, and the most delicious sauces in Myrtle Beach. At Dirty Myrtle Wing Company, you're not just a customer - you're part of our wing family.
+                            At Earth Cafe, our commitment is to your health, happiness, and the planet. We believe that every meal should be a celebration of fresh, organic ingredients and mindful choices. Our team is dedicated to sustainable practices, local partnerships, and creating a welcoming space for everyone. Thank you for letting us be a part of your wellness journey!
                         </p>
                     </div>
                 </div>
-
-
+                    </div>
+                </div>
             </div>
         </div>
     `,

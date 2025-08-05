@@ -184,6 +184,11 @@ class PageManager {
                         on: {
                             init: function() {
                                 console.log('Game Day Swiper initialized successfully!');
+// Remove opacity-0 for smooth load
+const gameDayEl = document.querySelector('.game-day-swiper');
+if (gameDayEl) {
+  gameDayEl.classList.remove('opacity-0');
+}
                             },
                             slideChange: function() {
                                 console.log('Game Day slide changed to:', this.activeIndex);
